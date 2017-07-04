@@ -1,0 +1,288 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  background-color: #ddd;
+}
+
+body{
+  zoom: 175%;
+}
+
+header{
+  background-color: #03a9f4;
+  height: 188px;
+}
+
+header img{
+  height: 190px;
+  float: left;
+}
+
+h1{
+  font-size: 48px;
+  width: 750px;
+  padding-left: 200px;
+  margin-top: 0;
+  font-family: "Lobster", cursive;
+  color: #fff;
+  transform: rotate(-8deg);
+}
+
+p{
+  font-size: 20px;
+  font-family: "EB Garamond", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  margin: 0;
+}
+
+h2{
+  margin: 20px;
+  font-size: 32px;
+  font-family: "Josefin Slab", serif;
+}
+
+h3{
+  margin: 0;
+  margin-left: 20px;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+}
+
+h4{
+  margin: 20px;
+  font-size: 44px;
+  font-style: bold;
+  font-family: "Josefin Slab", serif;
+}
+
+img[src="imgs/canallc.png"]{
+  width: 630px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-right: 30px;
+  border: 2px solid black;
+  display: inline;
+}
+
+ul{
+  font-family: "EB Garamond", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+ul img{
+  margin: 10px;
+  margin-bottom: 40px;
+  border: 4px dotted #03a9f4;
+}
+
+iframe{
+  margin: 10px;
+  border: 1px solid black;
+}
+
+label{
+  font-family: "Lato", cursive;
+  margin-left: 20px;
+}
+
+input{
+  line-height: 1.5em;
+}
+
+#menu-inicial{
+  background-color: #1de9b5;
+  padding: 5px;
+  height: 30px;
+}
+
+#menu-inicial a{
+  text-decoration: none;
+  display: inline;
+  font-family: "Pangolin", cursive;
+  font-size: 22px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#menu-inicial a:hover{
+  font-size: 24px;
+  transition: 100ms;
+}
+
+#legenda{
+  font-size: 20px;
+  font-family: "Lato", cursive;
+  margin-left: 50px;
+}
+
+#pesquisar{
+  color: #03a9f4;
+  border: 1px solid #03a9f4;
+  background-color: #ddd;
+  transition: 150ms;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 3px;
+}
+
+#pesquisar:hover{
+  cursor: help;
+  color: #ddd;
+  background-color: #03a9f4;
+  transition: 150ms;
+  border-color: #ddd;
+  padding: 3px;
+}
+
+#canal{
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+  margin-left: 30px;
+  margin-top: 60px;
+  position: relative;
+  top: -368px;
+  left: 660px;
+  box-sizing: border-box;
+}
+
+#acessar{
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  color: #03a9f4;
+  border: 3px solid #03a9f4;
+  padding: 8px;
+}
+
+#acessar:hover{
+  color: white;
+  background-color: #03a9f4;
+  border-color: white;
+  transition: 150ms;
+}
+
+#voltar-topo{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 25px;
+}
+
+#voltar-topo:hover{
+  bottom: 15px;
+  right: 15px;
+  transition: 150ms;
+}
+
+#video{
+  margin-left: 40px;
+}
+
+#sobre-autores ul{
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#colaboradores{
+  padding-right: 40px;
+}
+
+#little-cout{
+  margin-right: 40px;
+}
+
+.titulo-desenvolvedores h2{
+  font-size: 72px;
+  font-style: bold;
+}
+
+.imagens-autores{
+  height: 180px;
+  border: 1px dotted #03a9f4;
+  border-radius: 50%;
+  margin: 10px;
+  shape-outside: circle();
+}
+
+.esquerda{
+  float: left;
+}
+.direita{
+  float: right;
+  text-align: right;
+}
+
+.aba{
+  display: none;
+}
+
+.aba.atual{
+  display: block;
+}
+
+.logos-abas{
+  float: left;
+  height: 32px;
+  margin: 10px;
+  margin-top: 0;
+  padding-left: 4px;
+}
+
+.imagens-principais a{
+    text-decoration: none;
+    font-style: bold;
+    font-family: "Josefin Slab", serif;
+    font-size: 24px;
+    color: #03a9f4;
+    padding-left: 10px;
+}
+
+.imagens-principais{
+  background-color: #fff;
+  height: 350px;
+  width: 300px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  position: relative;
+  top: -330px;
+}
+
+.imagens-principais img{
+  height: 300px;
+  width: 300px;
+}
+
+.controle{
+  text-decoration: none;
+  font-family: "Josefin Slab", serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #03a9f4;
+  border: 3px solid #03a9f4;
+  padding: 8px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.controle:hover{
+  color: #ddd;
+  background-color: #03a9f4;
+  border-color: #ddd;
+  transition: 150ms;
+  cursor: pointer;
+}
+
+#faq a{
+  margin-left: 20px;
+}
