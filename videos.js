@@ -50,7 +50,7 @@ proximo.addEventListener('click', function(p){
 });
 anterior.addEventListener('click', function(p){
   indiceDoVideo = (indiceDoVideo - 1 + linkDosVideos.length) % linkDosVideos.length;
-  videoAtual.src = linkDosVideos[indiceDoVideo];
+  videoAtual.src = inicioLinks + linkDosVideos[indiceDoVideo];
   indiceDaLegenda = (indiceDaLegenda - 1 + legendasDosVideos.length) % legendasDosVideos.length;
   legendaAtual.innerHTML = legendasDosVideos[indiceDaLegenda];
 });
