@@ -4,10 +4,6 @@ html, body{
   background-color: #ddd;
 }
 
-body{
-  zoom: 175%;
-}
-
 header{
   background-color: #03a9f4;
   height: 188px;
@@ -56,9 +52,9 @@ h4{
   font-family: "Josefin Slab", serif;
 }
 
-img[src="imgs/canallc.png"]{
-  width: 630px;
-  height: 300px;
+#jedi{
+  width: 100%;
+  max-width: 630px;
   margin-left: 30px;
   margin-top: 60px;
   margin-right: 30px;
